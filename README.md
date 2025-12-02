@@ -98,13 +98,6 @@ python evaluation/cross_dataset.py \
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-### Core Contributors
-
-- **Wei Xu**  
-- **Huifeng Chen** 
-- **Nianyu Liu** 
-- **Guan Chen** 
-
 ## 📜 Citation
 
 bibtex
