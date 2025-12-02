@@ -1,0 +1,1123 @@
+epoch:1, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.6533, ce_loss_1=0.7542, ce_loss_2=0.6289, ACC_0=79.2453, ACC_1=45.0549, ACC_2=74.5098
+epoch:1, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.6199, ce_loss_1=0.6506, ce_loss_2=0.6299, ACC_0=68.6567, ACC_1=81.5534, ACC_2=72.0000
+epoch:1, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.6008, ce_loss_1=0.6597, ce_loss_2=0.6309, ACC_0=79.2453, ACC_1=76.1062, ACC_2=55.1724
+epoch:1, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.5918, ce_loss_1=0.6248, ce_loss_2=0.6022, ACC_0=69.3878, ACC_1=76.0563, ACC_2=66.6667
+epoch:1, Train: lr=0.005000, Loss=0.5918
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_1/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:1, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8532, val_err=0.2174, ACC=0.7913, TPR=0.3261
+test phase cost 2.1707s
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_best.pth
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:2, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.3672, ce_loss_1=0.5701, ce_loss_2=0.4463, ACC_0=73.8462, ACC_1=71.5596, ACC_2=95.2381
+epoch:2, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.4204, ce_loss_1=0.5206, ce_loss_2=0.4263, ACC_0=67.2727, ACC_1=68.9320, ACC_2=89.1892
+epoch:2, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.4277, ce_loss_1=0.5180, ce_loss_2=0.4113, ACC_0=84.6154, ACC_1=87.3786, ACC_2=66.6667
+epoch:2, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.4240, ce_loss_1=0.4992, ce_loss_2=0.4137, ACC_0=86.6667, ACC_1=85.3333, ACC_2=71.4286
+epoch:2, Train: lr=0.005000, Loss=0.4240
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_2/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:2, test:  val_ACC=0.7391, HTER=0.2609, AUC=0.8192, val_err=0.2609, ACC=0.7391, TPR=0.2174
+test phase cost 1.2305s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:3, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.4308, ce_loss_1=0.4383, ce_loss_2=0.3135, ACC_0=77.9661, ACC_1=73.3945, ACC_2=92.5926
+epoch:3, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.4114, ce_loss_1=0.4070, ce_loss_2=0.3895, ACC_0=70.7692, ACC_1=81.4433, ACC_2=63.6364
+epoch:3, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.3671, ce_loss_1=0.3852, ce_loss_2=0.3593, ACC_0=91.8033, ACC_1=79.8165, ACC_2=88.0000
+epoch:3, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.3597, ce_loss_1=0.3985, ce_loss_2=0.3531, ACC_0=80.0000, ACC_1=79.5181, ACC_2=78.2609
+epoch:3, Train: lr=0.005000, Loss=0.3597
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_3/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:3, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8456, val_err=0.2319, ACC=0.7739, TPR=0.2174
+test phase cost 1.1299s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:4, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2879, ce_loss_1=0.3466, ce_loss_2=0.3197, ACC_0=93.2203, ACC_1=88.9908, ACC_2=85.1852
+epoch:4, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2889, ce_loss_1=0.3482, ce_loss_2=0.2971, ACC_0=82.3529, ACC_1=83.7838, ACC_2=93.9394
+epoch:4, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2995, ce_loss_1=0.3273, ce_loss_2=0.2774, ACC_0=81.3559, ACC_1=94.3925, ACC_2=93.1034
+epoch:4, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2938, ce_loss_1=0.3300, ce_loss_2=0.2697, ACC_0=84.9057, ACC_1=76.1194, ACC_2=95.2381
+epoch:4, Train: lr=0.005000, Loss=0.2938
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_4/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:4, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8384, val_err=0.2464, ACC=0.7565, TPR=0.1739
+test phase cost 1.0262s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:5, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2655, ce_loss_1=0.2509, ce_loss_2=0.1259, ACC_0=82.3529, ACC_1=83.7838, ACC_2=93.9394
+epoch:5, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2659, ce_loss_1=0.2466, ce_loss_2=0.1419, ACC_0=91.2281, ACC_1=91.4286, ACC_2=90.9091
+epoch:5, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2425, ce_loss_1=0.2558, ce_loss_2=0.1501, ACC_0=91.3043, ACC_1=94.8454, ACC_2=82.7586
+epoch:5, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2424, ce_loss_1=0.2469, ce_loss_2=0.1608, ACC_0=86.6667, ACC_1=93.1507, ACC_2=91.3043
+epoch:5, Train: lr=0.005000, Loss=0.2424
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_5/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:5, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.7848, val_err=0.2754, ACC=0.7217, TPR=0.1739
+test phase cost 1.2810s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:6, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1894, ce_loss_1=0.2261, ce_loss_2=0.1543, ACC_0=84.1270, ACC_1=90.9091, ACC_2=90.9091
+epoch:6, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2224, ce_loss_1=0.2259, ce_loss_2=0.1493, ACC_0=85.7143, ACC_1=88.7850, ACC_2=84.0000
+epoch:6, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2243, ce_loss_1=0.2189, ce_loss_2=0.1330, ACC_0=85.7143, ACC_1=89.4737, ACC_2=95.6522
+epoch:6, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2279, ce_loss_1=0.2083, ce_loss_2=0.1299, ACC_0=92.6829, ACC_1=96.3636, ACC_2=88.8889
+epoch:6, Train: lr=0.005000, Loss=0.2279
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_6/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:6, test:  val_ACC=0.6957, HTER=0.3043, AUC=0.7779, val_err=0.3043, ACC=0.6957, TPR=0.1739
+test phase cost 1.1386s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:7, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.2077, ce_loss_1=0.1610, ce_loss_2=0.1182, ACC_0=89.0909, ACC_1=96.3303, ACC_2=93.5484
+epoch:7, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1986, ce_loss_1=0.1827, ce_loss_2=0.0957, ACC_0=95.5224, ACC_1=91.7431, ACC_2=89.4737
+epoch:7, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1836, ce_loss_1=0.1791, ce_loss_2=0.1115, ACC_0=93.8462, ACC_1=94.9495, ACC_2=87.0968
+epoch:7, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1825, ce_loss_1=0.1785, ce_loss_2=0.1031, ACC_0=94.8718, ACC_1=91.9540, ACC_2=93.3333
+epoch:7, Train: lr=0.005000, Loss=0.1825
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_7/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:7, test:  val_ACC=0.6957, HTER=0.3043, AUC=0.8047, val_err=0.3043, ACC=0.6957, TPR=0.2609
+test phase cost 1.1316s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:8, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1527, ce_loss_1=0.1530, ce_loss_2=0.0661, ACC_0=90.9091, ACC_1=98.0198, ACC_2=97.4359
+epoch:8, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1534, ce_loss_1=0.1643, ce_loss_2=0.0879, ACC_0=96.4912, ACC_1=94.3925, ACC_2=96.7742
+epoch:8, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1467, ce_loss_1=0.1830, ce_loss_2=0.0997, ACC_0=92.3077, ACC_1=93.8144, ACC_2=84.8485
+epoch:8, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1572, ce_loss_1=0.1760, ce_loss_2=0.0914, ACC_0=93.8776, ACC_1=97.1831, ACC_2=95.2381
+epoch:8, Train: lr=0.005000, Loss=0.1572
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_8/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:8, test:  val_ACC=0.6783, HTER=0.3225, AUC=0.7678, val_err=0.3188, ACC=0.6783, TPR=0.2174
+test phase cost 1.0952s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:9, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1306, ce_loss_1=0.1527, ce_loss_2=0.0877, ACC_0=96.4912, ACC_1=94.7368, ACC_2=95.3488
+epoch:9, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1195, ce_loss_1=0.1541, ce_loss_2=0.0705, ACC_0=90.5660, ACC_1=93.3333, ACC_2=91.8919
+epoch:9, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1350, ce_loss_1=0.1564, ce_loss_2=0.0759, ACC_0=91.5493, ACC_1=91.3978, ACC_2=93.5484
+epoch:9, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1345, ce_loss_1=0.1483, ce_loss_2=0.0792, ACC_0=87.8788, ACC_1=95.4023, ACC_2=90.4762
+epoch:9, Train: lr=0.005000, Loss=0.1345
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_9/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:9, test:  val_ACC=0.6957, HTER=0.3043, AUC=0.7776, val_err=0.3043, ACC=0.6957, TPR=0.2174
+test phase cost 1.1648s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:10, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0902, ce_loss_1=0.1037, ce_loss_2=0.0584, ACC_0=98.5915, ACC_1=98.0583, ACC_2=95.2381
+epoch:10, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1217, ce_loss_1=0.1053, ce_loss_2=0.0699, ACC_0=98.3607, ACC_1=98.0583, ACC_2=93.5484
+epoch:10, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1227, ce_loss_1=0.1146, ce_loss_2=0.0606, ACC_0=93.2203, ACC_1=94.1748, ACC_2=93.9394
+epoch:10, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1278, ce_loss_1=0.1192, ce_loss_2=0.0530, ACC_0=90.6977, ACC_1=90.3614, ACC_2=93.3333
+epoch:10, Train: lr=0.005000, Loss=0.1278
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_10/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:10, test:  val_ACC=0.7130, HTER=0.2862, AUC=0.8015, val_err=0.2899, ACC=0.7130, TPR=0.1522
+test phase cost 1.2186s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:11, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0826, ce_loss_1=0.1092, ce_loss_2=0.0752, ACC_0=97.7011, ACC_1=94.6667, ACC_2=93.9394
+epoch:11, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1024, ce_loss_1=0.1273, ce_loss_2=0.0925, ACC_0=95.7447, ACC_1=96.1905, ACC_2=97.6744
+epoch:11, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0998, ce_loss_1=0.1088, ce_loss_2=0.0844, ACC_0=95.0617, ACC_1=95.6044, ACC_2=95.6522
+epoch:11, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1009, ce_loss_1=0.1149, ce_loss_2=0.0956, ACC_0=97.1429, ACC_1=89.8551, ACC_2=89.1892
+epoch:11, Train: lr=0.005000, Loss=0.1009
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_11/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:11, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.7933, val_err=0.2754, ACC=0.7304, TPR=0.2174
+test phase cost 1.0726s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:12, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0829, ce_loss_1=0.1157, ce_loss_2=0.0403, ACC_0=97.1831, ACC_1=94.9495, ACC_2=96.0000
+epoch:12, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0841, ce_loss_1=0.0974, ce_loss_2=0.0549, ACC_0=98.0392, ACC_1=94.8454, ACC_2=95.7447
+epoch:12, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0956, ce_loss_1=0.1020, ce_loss_2=0.0837, ACC_0=90.7692, ACC_1=94.3925, ACC_2=95.6522
+epoch:12, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1072, ce_loss_1=0.0994, ce_loss_2=0.0704, ACC_0=95.9184, ACC_1=92.2078, ACC_2=93.3333
+epoch:12, Train: lr=0.005000, Loss=0.1072
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_12/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:12, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8346, val_err=0.2464, ACC=0.7565, TPR=0.2174
+test phase cost 1.2652s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:13, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0740, ce_loss_1=0.1400, ce_loss_2=0.0802, ACC_0=98.3051, ACC_1=95.4955, ACC_2=88.0000
+epoch:13, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0795, ce_loss_1=0.1371, ce_loss_2=0.1150, ACC_0=95.6522, ACC_1=96.1165, ACC_2=86.9565
+epoch:13, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0959, ce_loss_1=0.1317, ce_loss_2=0.0830, ACC_0=92.7273, ACC_1=95.5752, ACC_2=96.2963
+epoch:13, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0936, ce_loss_1=0.1243, ce_loss_2=0.0772, ACC_0=92.6829, ACC_1=93.8272, ACC_2=94.7368
+epoch:13, Train: lr=0.005000, Loss=0.0936
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_13/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:13, test:  val_ACC=0.7130, HTER=0.2862, AUC=0.8204, val_err=0.2899, ACC=0.7130, TPR=0.3043
+test phase cost 1.0909s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:14, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0875, ce_loss_1=0.1365, ce_loss_2=0.0570, ACC_0=93.8462, ACC_1=94.8454, ACC_2=90.9091
+epoch:14, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0852, ce_loss_1=0.1095, ce_loss_2=0.0486, ACC_0=95.6522, ACC_1=96.7742, ACC_2=96.9697
+epoch:14, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1014, ce_loss_1=0.1005, ce_loss_2=0.0435, ACC_0=97.1014, ACC_1=98.0952, ACC_2=95.2381
+epoch:14, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0942, ce_loss_1=0.0939, ce_loss_2=0.0554, ACC_0=97.5610, ACC_1=97.1014, ACC_2=96.7742
+epoch:14, Train: lr=0.005000, Loss=0.0942
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_14/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:14, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8015, val_err=0.2754, ACC=0.7217, TPR=0.1957
+test phase cost 0.9970s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:15, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0919, ce_loss_1=0.1389, ce_loss_2=0.0381, ACC_0=98.2456, ACC_1=93.2039, ACC_2=97.1429
+epoch:15, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0700, ce_loss_1=0.1295, ce_loss_2=0.0425, ACC_0=98.1818, ACC_1=94.0171, ACC_2=95.6522
+epoch:15, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0760, ce_loss_1=0.1249, ce_loss_2=0.0423, ACC_0=93.6508, ACC_1=96.4602, ACC_2=94.7368
+epoch:15, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0855, ce_loss_1=0.1142, ce_loss_2=0.0446, ACC_0=93.3333, ACC_1=95.8904, ACC_2=95.6522
+epoch:15, Train: lr=0.005000, Loss=0.0855
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_15/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:15, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8255, val_err=0.2464, ACC=0.7565, TPR=0.2609
+test phase cost 1.1710s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:16, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0523, ce_loss_1=0.0638, ce_loss_2=0.0720, ACC_0=97.1014, ACC_1=96.9697, ACC_2=96.2963
+epoch:16, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0648, ce_loss_1=0.0684, ce_loss_2=0.0443, ACC_0=92.9825, ACC_1=95.3271, ACC_2=96.7742
+epoch:16, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0654, ce_loss_1=0.0752, ce_loss_2=0.0538, ACC_0=98.3051, ACC_1=95.8763, ACC_2=92.3077
+epoch:16, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0684, ce_loss_1=0.0850, ce_loss_2=0.0454, ACC_0=95.5556, ACC_1=95.8904, ACC_2=95.6522
+epoch:16, Train: lr=0.005000, Loss=0.0684
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_16/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:16, test:  val_ACC=0.7130, HTER=0.2862, AUC=0.8100, val_err=0.2899, ACC=0.7130, TPR=0.2174
+test phase cost 1.0220s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:17, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0690, ce_loss_1=0.0743, ce_loss_2=0.0209, ACC_0=94.3662, ACC_1=95.8763, ACC_2=96.2963
+epoch:17, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0574, ce_loss_1=0.0757, ce_loss_2=0.0432, ACC_0=98.5075, ACC_1=97.8947, ACC_2=93.9394
+epoch:17, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0609, ce_loss_1=0.0743, ce_loss_2=0.0397, ACC_0=96.4912, ACC_1=98.2906, ACC_2=90.4762
+epoch:17, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0584, ce_loss_1=0.0789, ce_loss_2=0.0381, ACC_0=95.1220, ACC_1=96.2025, ACC_2=95.2381
+epoch:17, Train: lr=0.005000, Loss=0.0584
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_17/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:17, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8434, val_err=0.2609, ACC=0.7478, TPR=0.2174
+test phase cost 1.3279s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:18, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0398, ce_loss_1=0.0801, ce_loss_2=0.0652, ACC_0=96.8254, ACC_1=94.0594, ACC_2=93.5484
+epoch:18, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0718, ce_loss_1=0.0557, ce_loss_2=0.0850, ACC_0=94.5205, ACC_1=97.8947, ACC_2=92.5926
+epoch:18, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0617, ce_loss_1=0.0725, ce_loss_2=0.0825, ACC_0=96.8254, ACC_1=97.9381, ACC_2=97.1429
+epoch:18, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0720, ce_loss_1=0.0763, ce_loss_2=0.0684, ACC_0=93.9394, ACC_1=97.5309, ACC_2=96.2963
+epoch:18, Train: lr=0.005000, Loss=0.0720
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_18/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:18, test:  val_ACC=0.7391, HTER=0.2609, AUC=0.8141, val_err=0.2609, ACC=0.7391, TPR=0.2174
+test phase cost 1.1654s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:19, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0635, ce_loss_1=0.0425, ce_loss_2=0.0922, ACC_0=96.4912, ACC_1=98.2609, ACC_2=95.6522
+epoch:19, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0729, ce_loss_1=0.0465, ce_loss_2=0.0871, ACC_0=96.9231, ACC_1=99.0099, ACC_2=96.5517
+epoch:19, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0600, ce_loss_1=0.0640, ce_loss_2=0.1026, ACC_0=98.0392, ACC_1=97.3913, ACC_2=89.6552
+epoch:19, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0537, ce_loss_1=0.0656, ce_loss_2=0.0898, ACC_0=98.1818, ACC_1=96.6102, ACC_2=92.5926
+epoch:19, Train: lr=0.005000, Loss=0.0537
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_19/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:19, test:  val_ACC=0.6957, HTER=0.3043, AUC=0.8053, val_err=0.3043, ACC=0.6957, TPR=0.2174
+test phase cost 1.1579s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:20, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.1313, ce_loss_1=0.0760, ce_loss_2=0.0474, ACC_0=95.5224, ACC_1=91.7647, ACC_2=95.3488
+epoch:20, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0911, ce_loss_1=0.0797, ce_loss_2=0.0335, ACC_0=97.7778, ACC_1=95.9350, ACC_2=96.2963
+epoch:20, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0757, ce_loss_1=0.0670, ce_loss_2=0.0375, ACC_0=98.6301, ACC_1=97.8495, ACC_2=93.1034
+epoch:20, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0652, ce_loss_1=0.0730, ce_loss_2=0.0411, ACC_0=96.2264, ACC_1=95.6522, ACC_2=94.7368
+epoch:20, Train: lr=0.005000, Loss=0.0652
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_20/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:20, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8526, val_err=0.2464, ACC=0.7565, TPR=0.2391
+test phase cost 1.2612s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:21, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0490, ce_loss_1=0.0654, ce_loss_2=0.0415, ACC_0=96.3636, ACC_1=97.2477, ACC_2=96.7742
+epoch:21, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0483, ce_loss_1=0.0672, ce_loss_2=0.0361, ACC_0=98.8235, ACC_1=97.7011, ACC_2=95.6522
+epoch:21, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0413, ce_loss_1=0.0640, ce_loss_2=0.0375, ACC_0=98.4615, ACC_1=97.9381, ACC_2=93.9394
+epoch:21, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0458, ce_loss_1=0.0659, ce_loss_2=0.0349, ACC_0=91.8033, ACC_1=92.9825, ACC_2=95.6522
+epoch:21, Train: lr=0.005000, Loss=0.0458
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_21/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:21, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8415, val_err=0.2754, ACC=0.7217, TPR=0.2174
+test phase cost 1.1232s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:22, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0351, ce_loss_1=0.0758, ce_loss_2=0.0690, ACC_0=98.5507, ACC_1=97.8947, ACC_2=90.3226
+epoch:22, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0373, ce_loss_1=0.0666, ce_loss_2=0.0505, ACC_0=95.2381, ACC_1=95.9596, ACC_2=93.9394
+epoch:22, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0366, ce_loss_1=0.0685, ce_loss_2=0.0429, ACC_0=93.8776, ACC_1=96.3964, ACC_2=97.1429
+epoch:22, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0491, ce_loss_1=0.0718, ce_loss_2=0.0462, ACC_0=95.3488, ACC_1=95.8904, ACC_2=92.0000
+epoch:22, Train: lr=0.005000, Loss=0.0491
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_22/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:22, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8223, val_err=0.2754, ACC=0.7217, TPR=0.3043
+test phase cost 1.2592s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:23, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0279, ce_loss_1=0.0614, ce_loss_2=0.0077, ACC_0=94.3396, ACC_1=98.0952, ACC_2=97.2973
+epoch:23, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0355, ce_loss_1=0.0925, ce_loss_2=0.0089, ACC_0=98.4127, ACC_1=99.0476, ACC_2=96.2963
+epoch:23, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0540, ce_loss_1=0.0839, ce_loss_2=0.0130, ACC_0=94.2029, ACC_1=97.8947, ACC_2=96.7742
+epoch:23, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0539, ce_loss_1=0.0818, ce_loss_2=0.0124, ACC_0=93.6170, ACC_1=94.6667, ACC_2=94.7368
+epoch:23, Train: lr=0.005000, Loss=0.0539
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_23/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:23, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8472, val_err=0.2464, ACC=0.7565, TPR=0.2609
+test phase cost 1.0493s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:24, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0500, ce_loss_1=0.0630, ce_loss_2=0.0300, ACC_0=93.6508, ACC_1=94.6903, ACC_2=94.7368
+epoch:24, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0391, ce_loss_1=0.0774, ce_loss_2=0.0176, ACC_0=97.8723, ACC_1=94.8718, ACC_2=96.7742
+epoch:24, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0336, ce_loss_1=0.0727, ce_loss_2=0.0189, ACC_0=94.9153, ACC_1=96.4602, ACC_2=95.6522
+epoch:24, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0429, ce_loss_1=0.0697, ce_loss_2=0.0152, ACC_0=97.5610, ACC_1=96.2025, ACC_2=95.2381
+epoch:24, Train: lr=0.005000, Loss=0.0429
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_24/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:24, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8399, val_err=0.2319, ACC=0.7739, TPR=0.2174
+test phase cost 1.0835s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:25, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0475, ce_loss_1=0.0777, ce_loss_2=0.0274, ACC_0=94.1176, ACC_1=95.6522, ACC_2=96.5517
+epoch:25, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0564, ce_loss_1=0.0837, ce_loss_2=0.0358, ACC_0=98.4127, ACC_1=99.0476, ACC_2=96.2963
+epoch:25, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0520, ce_loss_1=0.0858, ce_loss_2=0.0374, ACC_0=97.2603, ACC_1=96.4706, ACC_2=94.5946
+epoch:25, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0459, ce_loss_1=0.0792, ce_loss_2=0.0316, ACC_0=97.8723, ACC_1=93.6709, ACC_2=93.3333
+epoch:25, Train: lr=0.005000, Loss=0.0459
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_25/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:25, test:  val_ACC=0.6957, HTER=0.3043, AUC=0.8273, val_err=0.3043, ACC=0.6957, TPR=0.3696
+test phase cost 1.0920s
+[Best result] epoch:1, HTER=0.2174, AUC=0.8532
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:26, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0345, ce_loss_1=0.0493, ce_loss_2=0.0318, ACC_0=95.7746, ACC_1=95.2381, ACC_2=94.7368
+epoch:26, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0296, ce_loss_1=0.0513, ce_loss_2=0.0315, ACC_0=98.5075, ACC_1=98.9899, ACC_2=96.5517
+epoch:26, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0318, ce_loss_1=0.0552, ce_loss_2=0.0356, ACC_0=96.0784, ACC_1=97.1963, ACC_2=94.5946
+epoch:26, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0361, ce_loss_1=0.0582, ce_loss_2=0.0407, ACC_0=97.7778, ACC_1=94.6667, ACC_2=95.2381
+epoch:26, Train: lr=0.005000, Loss=0.0361
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_26/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:26, test:  val_ACC=0.7826, HTER=0.2174, AUC=0.8670, val_err=0.2174, ACC=0.7826, TPR=0.3261
+test phase cost 1.1522s
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_best.pth
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:27, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0458, ce_loss_1=0.0631, ce_loss_2=0.0324, ACC_0=96.3636, ACC_1=96.3303, ACC_2=93.5484
+epoch:27, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0436, ce_loss_1=0.0517, ce_loss_2=0.0233, ACC_0=96.6102, ACC_1=98.1651, ACC_2=96.2963
+epoch:27, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0347, ce_loss_1=0.0609, ce_loss_2=0.0304, ACC_0=98.2456, ACC_1=98.9691, ACC_2=95.1220
+epoch:27, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0296, ce_loss_1=0.0613, ce_loss_2=0.0271, ACC_0=98.0392, ACC_1=93.9759, ACC_2=85.7143
+epoch:27, Train: lr=0.005000, Loss=0.0296
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_27/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:27, test:  val_ACC=0.7130, HTER=0.2862, AUC=0.8333, val_err=0.2899, ACC=0.7130, TPR=0.2391
+test phase cost 1.2960s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:28, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0451, ce_loss_1=0.0848, ce_loss_2=0.0251, ACC_0=96.9231, ACC_1=97.0874, ACC_2=92.5926
+epoch:28, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0406, ce_loss_1=0.0840, ce_loss_2=0.0239, ACC_0=98.4615, ACC_1=95.3271, ACC_2=95.6522
+epoch:28, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0347, ce_loss_1=0.0706, ce_loss_2=0.0212, ACC_0=97.1831, ACC_1=98.0198, ACC_2=95.6522
+epoch:28, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0333, ce_loss_1=0.0639, ce_loss_2=0.0220, ACC_0=96.7742, ACC_1=96.3855, ACC_2=92.5926
+epoch:28, Train: lr=0.005000, Loss=0.0333
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_28/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:28, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8447, val_err=0.2754, ACC=0.7304, TPR=0.2609
+test phase cost 1.1431s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:29, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0292, ce_loss_1=0.0657, ce_loss_2=0.0205, ACC_0=98.4615, ACC_1=94.7368, ACC_2=97.1429
+epoch:29, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0219, ce_loss_1=0.0472, ce_loss_2=0.0179, ACC_0=98.2456, ACC_1=99.0476, ACC_2=96.9697
+epoch:29, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0315, ce_loss_1=0.0564, ce_loss_2=0.0165, ACC_0=95.0820, ACC_1=98.4000, ACC_2=88.8889
+epoch:29, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0305, ce_loss_1=0.0530, ce_loss_2=0.0151, ACC_0=97.1429, ACC_1=93.8272, ACC_2=96.0000
+epoch:29, Train: lr=0.005000, Loss=0.0305
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_29/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:29, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8324, val_err=0.2754, ACC=0.7217, TPR=0.3478
+test phase cost 1.1150s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:30, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0208, ce_loss_1=0.0680, ce_loss_2=0.0527, ACC_0=98.2456, ACC_1=95.8678, ACC_2=94.1176
+epoch:30, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0167, ce_loss_1=0.0593, ce_loss_2=0.0449, ACC_0=98.3607, ACC_1=97.3451, ACC_2=90.4762
+epoch:30, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0284, ce_loss_1=0.0556, ce_loss_2=0.0323, ACC_0=98.7654, ACC_1=97.5904, ACC_2=96.7742
+epoch:30, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0268, ce_loss_1=0.0528, ce_loss_2=0.0249, ACC_0=96.7742, ACC_1=98.6667, ACC_2=97.1429
+epoch:30, Train: lr=0.005000, Loss=0.0268
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_30/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:30, test:  val_ACC=0.7130, HTER=0.2862, AUC=0.8267, val_err=0.2899, ACC=0.7130, TPR=0.3696
+test phase cost 1.1434s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:31, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0319, ce_loss_1=0.0258, ce_loss_2=0.0280, ACC_0=98.3051, ACC_1=98.2906, ACC_2=94.7368
+epoch:31, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0339, ce_loss_1=0.0313, ce_loss_2=0.0262, ACC_0=96.9231, ACC_1=96.3303, ACC_2=95.2381
+epoch:31, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0352, ce_loss_1=0.0472, ce_loss_2=0.0233, ACC_0=96.7213, ACC_1=96.0396, ACC_2=96.9697
+epoch:31, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0486, ce_loss_1=0.0441, ce_loss_2=0.0234, ACC_0=89.0909, ACC_1=96.7213, ACC_2=96.0000
+epoch:31, Train: lr=0.005000, Loss=0.0486
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_31/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:31, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8418, val_err=0.2464, ACC=0.7565, TPR=0.2174
+test phase cost 1.0511s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:32, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0133, ce_loss_1=0.0540, ce_loss_2=0.0090, ACC_0=98.3607, ACC_1=95.5752, ACC_2=95.2381
+epoch:32, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0205, ce_loss_1=0.0638, ce_loss_2=0.0133, ACC_0=97.2603, ACC_1=96.7742, ACC_2=96.5517
+epoch:32, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0230, ce_loss_1=0.0564, ce_loss_2=0.0221, ACC_0=98.5075, ACC_1=97.8947, ACC_2=93.9394
+epoch:32, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0298, ce_loss_1=0.0572, ce_loss_2=0.0176, ACC_0=98.0392, ACC_1=96.7213, ACC_2=96.5517
+epoch:32, Train: lr=0.005000, Loss=0.0298
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_32/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:32, test:  val_ACC=0.7391, HTER=0.2609, AUC=0.8459, val_err=0.2609, ACC=0.7391, TPR=0.2609
+test phase cost 1.1852s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:33, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0324, ce_loss_1=0.0455, ce_loss_2=0.0079, ACC_0=96.0784, ACC_1=98.4252, ACC_2=94.1176
+epoch:33, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0309, ce_loss_1=0.0606, ce_loss_2=0.0103, ACC_0=98.3607, ACC_1=96.7033, ACC_2=97.6744
+epoch:33, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0354, ce_loss_1=0.0669, ce_loss_2=0.0118, ACC_0=95.2381, ACC_1=93.9394, ACC_2=96.9697
+epoch:33, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0367, ce_loss_1=0.0585, ce_loss_2=0.0164, ACC_0=94.2857, ACC_1=97.7011, ACC_2=94.7368
+epoch:33, Train: lr=0.005000, Loss=0.0367
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_33/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:33, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8318, val_err=0.2754, ACC=0.7304, TPR=0.2391
+test phase cost 1.0421s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:34, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0122, ce_loss_1=0.0509, ce_loss_2=0.0065, ACC_0=98.4615, ACC_1=96.8421, ACC_2=97.1429
+epoch:34, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0390, ce_loss_1=0.0558, ce_loss_2=0.0176, ACC_0=98.5075, ACC_1=97.8947, ACC_2=93.9394
+epoch:34, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0331, ce_loss_1=0.0469, ce_loss_2=0.0438, ACC_0=98.0392, ACC_1=97.3451, ACC_2=96.7742
+epoch:34, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0360, ce_loss_1=0.0417, ce_loss_2=0.0346, ACC_0=97.4359, ACC_1=98.6301, ACC_2=96.5517
+epoch:34, Train: lr=0.005000, Loss=0.0360
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_34/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:34, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8018, val_err=0.2754, ACC=0.7304, TPR=0.2609
+test phase cost 1.3121s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:35, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0271, ce_loss_1=0.0413, ce_loss_2=0.0039, ACC_0=98.6667, ACC_1=96.7742, ACC_2=96.2963
+epoch:35, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0312, ce_loss_1=0.0334, ce_loss_2=0.0124, ACC_0=98.1818, ACC_1=99.0654, ACC_2=96.9697
+epoch:35, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0289, ce_loss_1=0.0398, ce_loss_2=0.0135, ACC_0=98.3051, ACC_1=97.1963, ACC_2=96.5517
+epoch:35, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0278, ce_loss_1=0.0414, ce_loss_2=0.0139, ACC_0=95.5556, ACC_1=96.2025, ACC_2=94.1176
+epoch:35, Train: lr=0.005000, Loss=0.0278
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_35/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:35, test:  val_ACC=0.6870, HTER=0.3225, AUC=0.7747, val_err=0.3188, ACC=0.6870, TPR=0.2174
+test phase cost 1.0636s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:36, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0114, ce_loss_1=0.0849, ce_loss_2=0.0226, ACC_0=98.1132, ACC_1=99.0654, ACC_2=91.4286
+epoch:36, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0304, ce_loss_1=0.0540, ce_loss_2=0.0131, ACC_0=98.6667, ACC_1=99.0099, ACC_2=94.7368
+epoch:36, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0261, ce_loss_1=0.0515, ce_loss_2=0.0405, ACC_0=95.3488, ACC_1=96.7480, ACC_2=89.6552
+epoch:36, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0253, ce_loss_1=0.0489, ce_loss_2=0.0331, ACC_0=97.6744, ACC_1=98.7342, ACC_2=94.7368
+epoch:36, Train: lr=0.005000, Loss=0.0253
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_36/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:36, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8409, val_err=0.2754, ACC=0.7304, TPR=0.3043
+test phase cost 1.2112s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:37, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0130, ce_loss_1=0.0226, ce_loss_2=0.0519, ACC_0=98.1818, ACC_1=99.0476, ACC_2=94.2857
+epoch:37, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0168, ce_loss_1=0.0272, ce_loss_2=0.0433, ACC_0=95.8904, ACC_1=98.9899, ACC_2=95.6522
+epoch:37, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0157, ce_loss_1=0.0473, ce_loss_2=0.0375, ACC_0=97.7778, ACC_1=96.4602, ACC_2=97.2973
+epoch:37, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0159, ce_loss_1=0.0555, ce_loss_2=0.0526, ACC_0=97.1429, ACC_1=98.7654, ACC_2=88.0000
+epoch:37, Train: lr=0.005000, Loss=0.0159
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_37/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:37, test:  val_ACC=0.6957, HTER=0.3043, AUC=0.8308, val_err=0.3043, ACC=0.6957, TPR=0.3261
+test phase cost 1.0993s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:38, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0196, ce_loss_1=0.0992, ce_loss_2=0.0151, ACC_0=98.2456, ACC_1=90.6542, ACC_2=93.5484
+epoch:38, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0205, ce_loss_1=0.0767, ce_loss_2=0.0394, ACC_0=98.4127, ACC_1=96.5217, ACC_2=88.2353
+epoch:38, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0323, ce_loss_1=0.0600, ce_loss_2=0.0284, ACC_0=95.2381, ACC_1=96.7742, ACC_2=97.4359
+epoch:38, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0302, ce_loss_1=0.0610, ce_loss_2=0.0335, ACC_0=98.2456, ACC_1=94.0299, ACC_2=82.3529
+epoch:38, Train: lr=0.005000, Loss=0.0302
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_38/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:38, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8365, val_err=0.2754, ACC=0.7304, TPR=0.2391
+test phase cost 1.1696s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:39, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0316, ce_loss_1=0.0288, ce_loss_2=0.0043, ACC_0=98.1818, ACC_1=99.0991, ACC_2=96.5517
+epoch:39, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0244, ce_loss_1=0.0320, ce_loss_2=0.0262, ACC_0=98.4127, ACC_1=96.9697, ACC_2=96.9697
+epoch:39, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0275, ce_loss_1=0.0361, ce_loss_2=0.0376, ACC_0=98.1132, ACC_1=99.0991, ACC_2=96.7742
+epoch:39, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0288, ce_loss_1=0.0409, ce_loss_2=0.0319, ACC_0=97.8723, ACC_1=98.6301, ACC_2=95.2381
+epoch:39, Train: lr=0.005000, Loss=0.0288
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_39/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:39, test:  val_ACC=0.6957, HTER=0.3043, AUC=0.8396, val_err=0.3043, ACC=0.6957, TPR=0.3261
+test phase cost 1.1895s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:40, mini-batch:3, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0315, ce_loss_1=0.0384, ce_loss_2=0.0140, ACC_0=94.2029, ACC_1=96.4706, ACC_2=97.5610
+epoch:40, mini-batch:6, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0263, ce_loss_1=0.0609, ce_loss_2=0.0119, ACC_0=98.3051, ACC_1=96.3964, ACC_2=96.0000
+epoch:40, mini-batch:9, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0251, ce_loss_1=0.0450, ce_loss_2=0.0176, ACC_0=98.3607, ACC_1=97.8947, ACC_2=92.3077
+epoch:40, mini-batch:12, lr=0.0050, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0249, ce_loss_1=0.0439, ce_loss_2=0.0205, ACC_0=96.5517, ACC_1=97.7528, ACC_2=95.6522
+epoch:40, Train: lr=0.005000, Loss=0.0249
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_40/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:40, test:  val_ACC=0.7043, HTER=0.3043, AUC=0.8444, val_err=0.3043, ACC=0.7043, TPR=0.3043
+test phase cost 1.2928s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:41, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0331, ce_loss_1=0.0702, ce_loss_2=0.0075, ACC_0=94.3396, ACC_1=99.0654, ACC_2=97.1429
+epoch:41, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0347, ce_loss_1=0.0573, ce_loss_2=0.0181, ACC_0=98.3607, ACC_1=96.1905, ACC_2=93.1034
+epoch:41, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0334, ce_loss_1=0.0573, ce_loss_2=0.0138, ACC_0=96.9231, ACC_1=97.3913, ACC_2=93.3333
+epoch:41, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0290, ce_loss_1=0.0605, ce_loss_2=0.0181, ACC_0=97.5610, ACC_1=98.6301, ACC_2=96.2963
+epoch:41, Train: lr=0.002500, Loss=0.0290
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_41/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:41, test:  val_ACC=0.7826, HTER=0.2174, AUC=0.8526, val_err=0.2174, ACC=0.7826, TPR=0.2391
+test phase cost 1.1670s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:42, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0176, ce_loss_1=0.0443, ce_loss_2=0.0054, ACC_0=98.6667, ACC_1=98.9247, ACC_2=96.2963
+epoch:42, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0131, ce_loss_1=0.0339, ce_loss_2=0.0171, ACC_0=98.3607, ACC_1=99.0291, ACC_2=93.5484
+epoch:42, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0163, ce_loss_1=0.0446, ce_loss_2=0.0133, ACC_0=96.4912, ACC_1=98.1651, ACC_2=96.5517
+epoch:42, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0165, ce_loss_1=0.0474, ce_loss_2=0.0185, ACC_0=97.4359, ACC_1=97.6471, ACC_2=88.2353
+epoch:42, Train: lr=0.002500, Loss=0.0165
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_42/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:42, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8396, val_err=0.2609, ACC=0.7478, TPR=0.2826
+test phase cost 1.1186s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:43, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0117, ce_loss_1=0.0665, ce_loss_2=0.0062, ACC_0=98.5075, ACC_1=98.9899, ACC_2=96.5517
+epoch:43, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0104, ce_loss_1=0.0559, ce_loss_2=0.0111, ACC_0=98.1818, ACC_1=97.0297, ACC_2=94.8718
+epoch:43, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0177, ce_loss_1=0.0566, ce_loss_2=0.0173, ACC_0=95.7746, ACC_1=97.8947, ACC_2=96.5517
+epoch:43, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0168, ce_loss_1=0.0487, ce_loss_2=0.0158, ACC_0=97.9592, ACC_1=97.1831, ACC_2=95.2381
+epoch:43, Train: lr=0.002500, Loss=0.0168
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_43/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:43, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8664, val_err=0.2319, ACC=0.7652, TPR=0.2826
+test phase cost 1.3269s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:44, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0091, ce_loss_1=0.0251, ce_loss_2=0.0251, ACC_0=98.4127, ACC_1=98.0198, ACC_2=96.7742
+epoch:44, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0151, ce_loss_1=0.0438, ce_loss_2=0.0190, ACC_0=98.3607, ACC_1=97.0874, ACC_2=96.7742
+epoch:44, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0145, ce_loss_1=0.0352, ce_loss_2=0.0148, ACC_0=97.0149, ACC_1=98.0952, ACC_2=95.6522
+epoch:44, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0136, ce_loss_1=0.0379, ce_loss_2=0.0173, ACC_0=98.1132, ACC_1=95.3846, ACC_2=91.3043
+epoch:44, Train: lr=0.002500, Loss=0.0136
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_44/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:44, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8538, val_err=0.2609, ACC=0.7478, TPR=0.3043
+test phase cost 1.1168s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:45, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0056, ce_loss_1=0.0261, ce_loss_2=0.0179, ACC_0=97.8723, ACC_1=97.3913, ACC_2=96.9697
+epoch:45, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0088, ce_loss_1=0.0420, ce_loss_2=0.0131, ACC_0=97.9592, ACC_1=98.2906, ACC_2=96.5517
+epoch:45, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0136, ce_loss_1=0.0384, ce_loss_2=0.0091, ACC_0=95.0820, ACC_1=97.1429, ACC_2=96.5517
+epoch:45, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0268, ce_loss_1=0.0360, ce_loss_2=0.0086, ACC_0=95.3488, ACC_1=98.7342, ACC_2=94.7368
+epoch:45, Train: lr=0.002500, Loss=0.0268
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_45/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:45, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8617, val_err=0.2319, ACC=0.7739, TPR=0.3913
+test phase cost 1.1961s
+[Best result] epoch:26, HTER=0.2174, AUC=0.8670
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:46, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0058, ce_loss_1=0.0441, ce_loss_2=0.0117, ACC_0=98.3051, ACC_1=99.0991, ACC_2=96.0000
+epoch:46, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0078, ce_loss_1=0.0403, ce_loss_2=0.0135, ACC_0=98.3607, ACC_1=98.9899, ACC_2=97.1429
+epoch:46, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0118, ce_loss_1=0.0448, ce_loss_2=0.0114, ACC_0=98.1818, ACC_1=98.0583, ACC_2=97.2973
+epoch:46, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0128, ce_loss_1=0.0425, ce_loss_2=0.0106, ACC_0=97.7778, ACC_1=97.4684, ACC_2=94.1176
+epoch:46, Train: lr=0.002500, Loss=0.0128
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_46/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:46, test:  val_ACC=0.8174, HTER=0.1920, AUC=0.8683, val_err=0.1884, ACC=0.8174, TPR=0.3261
+test phase cost 1.0172s
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_best.pth
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:47, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0177, ce_loss_1=0.0320, ce_loss_2=0.0281, ACC_0=98.3607, ACC_1=94.3820, ACC_2=97.7778
+epoch:47, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0192, ce_loss_1=0.0230, ce_loss_2=0.0215, ACC_0=97.2603, ACC_1=98.9247, ACC_2=96.5517
+epoch:47, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0180, ce_loss_1=0.0343, ce_loss_2=0.0203, ACC_0=97.9592, ACC_1=98.3193, ACC_2=96.2963
+epoch:47, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0158, ce_loss_1=0.0407, ce_loss_2=0.0162, ACC_0=97.7778, ACC_1=97.4684, ACC_2=94.1176
+epoch:47, Train: lr=0.002500, Loss=0.0158
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_47/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:47, test:  val_ACC=0.8000, HTER=0.1993, AUC=0.8724, val_err=0.2029, ACC=0.8000, TPR=0.3043
+test phase cost 1.1221s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:48, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0223, ce_loss_1=0.0431, ce_loss_2=0.0290, ACC_0=96.7213, ACC_1=96.0396, ACC_2=93.9394
+epoch:48, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0185, ce_loss_1=0.0328, ce_loss_2=0.0174, ACC_0=96.8254, ACC_1=99.0476, ACC_2=96.2963
+epoch:48, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0232, ce_loss_1=0.0327, ce_loss_2=0.0145, ACC_0=97.8723, ACC_1=99.2000, ACC_2=95.6522
+epoch:48, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0192, ce_loss_1=0.0299, ce_loss_2=0.0121, ACC_0=97.9592, ACC_1=98.5507, ACC_2=95.6522
+epoch:48, Train: lr=0.002500, Loss=0.0192
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_48/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:48, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8598, val_err=0.2464, ACC=0.7565, TPR=0.3043
+test phase cost 1.1752s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:49, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0087, ce_loss_1=0.0353, ce_loss_2=0.0067, ACC_0=98.3051, ACC_1=97.1963, ACC_2=96.5517
+epoch:49, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0080, ce_loss_1=0.0463, ce_loss_2=0.0285, ACC_0=98.5507, ACC_1=96.9697, ACC_2=88.8889
+epoch:49, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0115, ce_loss_1=0.0399, ce_loss_2=0.0242, ACC_0=98.3051, ACC_1=99.1150, ACC_2=91.3043
+epoch:49, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0106, ce_loss_1=0.0420, ce_loss_2=0.0337, ACC_0=97.1429, ACC_1=98.5507, ACC_2=91.8919
+epoch:49, Train: lr=0.002500, Loss=0.0106
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_49/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:49, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8800, val_err=0.2609, ACC=0.7478, TPR=0.3696
+test phase cost 1.2651s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:50, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0076, ce_loss_1=0.0468, ce_loss_2=0.0217, ACC_0=98.4127, ACC_1=97.9798, ACC_2=96.9697
+epoch:50, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0143, ce_loss_1=0.0409, ce_loss_2=0.0122, ACC_0=96.0784, ACC_1=98.3471, ACC_2=95.6522
+epoch:50, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0222, ce_loss_1=0.0568, ce_loss_2=0.0097, ACC_0=98.6667, ACC_1=92.9293, ACC_2=95.2381
+epoch:50, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0232, ce_loss_1=0.0515, ce_loss_2=0.0100, ACC_0=93.8776, ACC_1=93.2203, ACC_2=96.9697
+epoch:50, Train: lr=0.002500, Loss=0.0232
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_50/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:50, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8522, val_err=0.2174, ACC=0.7913, TPR=0.3043
+test phase cost 1.0924s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:51, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0032, ce_loss_1=0.0447, ce_loss_2=0.0062, ACC_0=98.1818, ACC_1=97.1963, ACC_2=96.9697
+epoch:51, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0058, ce_loss_1=0.0508, ce_loss_2=0.0173, ACC_0=98.4615, ACC_1=99.0654, ACC_2=91.3043
+epoch:51, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0055, ce_loss_1=0.0450, ce_loss_2=0.0348, ACC_0=98.5075, ACC_1=99.0476, ACC_2=91.3043
+epoch:51, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0124, ce_loss_1=0.0379, ce_loss_2=0.0292, ACC_0=93.0233, ACC_1=98.8506, ACC_2=90.9091
+epoch:51, Train: lr=0.002500, Loss=0.0124
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_51/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:51, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8503, val_err=0.2464, ACC=0.7565, TPR=0.3043
+test phase cost 1.1361s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:52, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0158, ce_loss_1=0.0305, ce_loss_2=0.0321, ACC_0=97.1014, ACC_1=98.0198, ACC_2=96.0000
+epoch:52, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0107, ce_loss_1=0.0387, ce_loss_2=0.0186, ACC_0=97.7778, ACC_1=97.3913, ACC_2=97.1429
+epoch:52, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0145, ce_loss_1=0.0349, ce_loss_2=0.0242, ACC_0=98.4127, ACC_1=98.0952, ACC_2=92.5926
+epoch:52, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0125, ce_loss_1=0.0389, ce_loss_2=0.0265, ACC_0=98.2456, ACC_1=95.3846, ACC_2=94.7368
+epoch:52, Train: lr=0.002500, Loss=0.0125
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_52/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:52, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8466, val_err=0.2319, ACC=0.7652, TPR=0.3261
+test phase cost 1.2929s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:53, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0119, ce_loss_1=0.0484, ce_loss_2=0.0016, ACC_0=98.3051, ACC_1=99.0991, ACC_2=96.0000
+epoch:53, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0110, ce_loss_1=0.0363, ce_loss_2=0.0063, ACC_0=98.1132, ACC_1=99.2000, ACC_2=94.1176
+epoch:53, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0232, ce_loss_1=0.0368, ce_loss_2=0.0168, ACC_0=93.6508, ACC_1=98.1308, ACC_2=96.0000
+epoch:53, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0189, ce_loss_1=0.0326, ce_loss_2=0.0155, ACC_0=97.9592, ACC_1=98.4615, ACC_2=96.2963
+epoch:53, Train: lr=0.002500, Loss=0.0189
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_53/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:53, test:  val_ACC=0.7043, HTER=0.3043, AUC=0.8318, val_err=0.3043, ACC=0.7043, TPR=0.4565
+test phase cost 1.3237s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:54, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0277, ce_loss_1=0.0141, ce_loss_2=0.0274, ACC_0=98.5507, ACC_1=98.9247, ACC_2=96.9697
+epoch:54, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0285, ce_loss_1=0.0188, ce_loss_2=0.0183, ACC_0=96.8254, ACC_1=97.2477, ACC_2=95.6522
+epoch:54, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0216, ce_loss_1=0.0221, ce_loss_2=0.0198, ACC_0=97.7778, ACC_1=98.2906, ACC_2=96.9697
+epoch:54, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0170, ce_loss_1=0.0339, ce_loss_2=0.0159, ACC_0=97.8723, ACC_1=96.2963, ACC_2=92.3077
+epoch:54, Train: lr=0.002500, Loss=0.0170
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_54/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:54, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8551, val_err=0.2754, ACC=0.7304, TPR=0.4783
+test phase cost 1.1906s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:55, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0200, ce_loss_1=0.0227, ce_loss_2=0.0290, ACC_0=98.6667, ACC_1=97.8495, ACC_2=92.5926
+epoch:55, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0197, ce_loss_1=0.0365, ce_loss_2=0.0189, ACC_0=98.7013, ACC_1=94.3820, ACC_2=96.5517
+epoch:55, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0156, ce_loss_1=0.0333, ce_loss_2=0.0172, ACC_0=98.6667, ACC_1=97.8022, ACC_2=96.5517
+epoch:55, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0248, ce_loss_1=0.0413, ce_loss_2=0.0142, ACC_0=93.0233, ACC_1=96.3855, ACC_2=93.3333
+epoch:55, Train: lr=0.002500, Loss=0.0248
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_55/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:55, test:  val_ACC=0.7391, HTER=0.2609, AUC=0.8491, val_err=0.2609, ACC=0.7391, TPR=0.4130
+test phase cost 1.1675s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:56, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0139, ce_loss_1=0.0454, ce_loss_2=0.0200, ACC_0=98.7342, ACC_1=97.7011, ACC_2=96.5517
+epoch:56, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0120, ce_loss_1=0.0445, ce_loss_2=0.0174, ACC_0=98.1818, ACC_1=98.2301, ACC_2=96.2963
+epoch:56, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0110, ce_loss_1=0.0417, ce_loss_2=0.0128, ACC_0=98.4615, ACC_1=99.0291, ACC_2=96.2963
+epoch:56, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0128, ce_loss_1=0.0359, ce_loss_2=0.0109, ACC_0=97.7778, ACC_1=98.6301, ACC_2=95.6522
+epoch:56, Train: lr=0.002500, Loss=0.0128
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_56/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:56, test:  val_ACC=0.7826, HTER=0.2174, AUC=0.8381, val_err=0.2174, ACC=0.7826, TPR=0.3478
+test phase cost 1.0681s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:57, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0162, ce_loss_1=0.0252, ce_loss_2=0.0052, ACC_0=98.4615, ACC_1=98.0198, ACC_2=96.5517
+epoch:57, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0171, ce_loss_1=0.0332, ce_loss_2=0.0186, ACC_0=96.2264, ACC_1=97.2973, ACC_2=96.7742
+epoch:57, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0157, ce_loss_1=0.0485, ce_loss_2=0.0151, ACC_0=98.3051, ACC_1=97.0874, ACC_2=96.9697
+epoch:57, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0160, ce_loss_1=0.0437, ce_loss_2=0.0132, ACC_0=97.8723, ACC_1=98.6667, ACC_2=94.7368
+epoch:57, Train: lr=0.002500, Loss=0.0160
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_57/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:57, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8459, val_err=0.2754, ACC=0.7304, TPR=0.2826
+test phase cost 1.2157s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:58, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0081, ce_loss_1=0.0228, ce_loss_2=0.0032, ACC_0=98.7013, ACC_1=98.7654, ACC_2=97.2973
+epoch:58, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0135, ce_loss_1=0.0409, ce_loss_2=0.0026, ACC_0=98.4127, ACC_1=96.1905, ACC_2=96.2963
+epoch:58, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0161, ce_loss_1=0.0474, ce_loss_2=0.0050, ACC_0=98.2456, ACC_1=97.2477, ACC_2=96.5517
+epoch:58, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0202, ce_loss_1=0.0451, ce_loss_2=0.0044, ACC_0=97.7778, ACC_1=96.1039, ACC_2=94.7368
+epoch:58, Train: lr=0.002500, Loss=0.0202
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_58/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:58, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8324, val_err=0.2754, ACC=0.7304, TPR=0.3478
+test phase cost 1.2900s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:59, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0094, ce_loss_1=0.0373, ce_loss_2=0.0037, ACC_0=96.2264, ACC_1=97.9798, ACC_2=97.6744
+epoch:59, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0209, ce_loss_1=0.0296, ce_loss_2=0.0056, ACC_0=96.9231, ACC_1=98.0198, ACC_2=96.5517
+epoch:59, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0170, ce_loss_1=0.0330, ce_loss_2=0.0157, ACC_0=98.4615, ACC_1=97.8495, ACC_2=94.5946
+epoch:59, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0140, ce_loss_1=0.0340, ce_loss_2=0.0133, ACC_0=97.6744, ACC_1=94.8052, ACC_2=95.2381
+epoch:59, Train: lr=0.002500, Loss=0.0140
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_59/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:59, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8450, val_err=0.2464, ACC=0.7565, TPR=0.3261
+test phase cost 1.1999s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:60, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0027, ce_loss_1=0.0271, ce_loss_2=0.0006, ACC_0=98.3607, ACC_1=98.0952, ACC_2=96.5517
+epoch:60, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0037, ce_loss_1=0.0249, ce_loss_2=0.0031, ACC_0=98.0392, ACC_1=97.1429, ACC_2=97.4359
+epoch:60, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0143, ce_loss_1=0.0310, ce_loss_2=0.0029, ACC_0=98.5915, ACC_1=97.0297, ACC_2=95.6522
+epoch:60, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0134, ce_loss_1=0.0335, ce_loss_2=0.0027, ACC_0=97.5610, ACC_1=93.3333, ACC_2=96.0000
+epoch:60, Train: lr=0.002500, Loss=0.0134
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_60/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:60, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8434, val_err=0.2319, ACC=0.7652, TPR=0.3261
+test phase cost 1.1240s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:61, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0079, ce_loss_1=0.0108, ce_loss_2=0.0067, ACC_0=98.3607, ACC_1=99.0991, ACC_2=95.6522
+epoch:61, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0065, ce_loss_1=0.0366, ce_loss_2=0.0091, ACC_0=97.9592, ACC_1=97.2973, ACC_2=97.1429
+epoch:61, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0083, ce_loss_1=0.0320, ce_loss_2=0.0089, ACC_0=96.6102, ACC_1=98.0952, ACC_2=96.7742
+epoch:61, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0080, ce_loss_1=0.0304, ce_loss_2=0.0100, ACC_0=98.1132, ACC_1=95.3846, ACC_2=95.6522
+epoch:61, Train: lr=0.002500, Loss=0.0080
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_61/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:61, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8585, val_err=0.2319, ACC=0.7652, TPR=0.3696
+test phase cost 1.1332s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:62, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0233, ce_loss_1=0.0168, ce_loss_2=0.0031, ACC_0=97.4026, ACC_1=98.9011, ACC_2=96.2963
+epoch:62, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0145, ce_loss_1=0.0182, ce_loss_2=0.0055, ACC_0=98.4615, ACC_1=97.9381, ACC_2=96.9697
+epoch:62, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0123, ce_loss_1=0.0339, ce_loss_2=0.0078, ACC_0=98.2456, ACC_1=98.0198, ACC_2=97.2973
+epoch:62, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0114, ce_loss_1=0.0331, ce_loss_2=0.0073, ACC_0=97.6744, ACC_1=96.3855, ACC_2=93.3333
+epoch:62, Train: lr=0.002500, Loss=0.0114
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_62/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:62, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8469, val_err=0.2609, ACC=0.7478, TPR=0.3043
+test phase cost 1.2272s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:63, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0097, ce_loss_1=0.0306, ce_loss_2=0.0629, ACC_0=98.4615, ACC_1=98.9011, ACC_2=97.4359
+epoch:63, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0120, ce_loss_1=0.0346, ce_loss_2=0.0371, ACC_0=98.5507, ACC_1=94.8454, ACC_2=96.5517
+epoch:63, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0123, ce_loss_1=0.0270, ce_loss_2=0.0322, ACC_0=98.6301, ACC_1=98.9474, ACC_2=92.5926
+epoch:63, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0102, ce_loss_1=0.0290, ce_loss_2=0.0254, ACC_0=97.4359, ACC_1=97.3333, ACC_2=96.2963
+epoch:63, Train: lr=0.002500, Loss=0.0102
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_63/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:63, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8415, val_err=0.2609, ACC=0.7478, TPR=0.3043
+test phase cost 1.0471s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:64, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0183, ce_loss_1=0.0189, ce_loss_2=0.0024, ACC_0=98.5075, ACC_1=97.8022, ACC_2=97.2973
+epoch:64, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0177, ce_loss_1=0.0286, ce_loss_2=0.0046, ACC_0=94.3396, ACC_1=98.1308, ACC_2=97.1429
+epoch:64, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0150, ce_loss_1=0.0316, ce_loss_2=0.0124, ACC_0=98.4127, ACC_1=97.2477, ACC_2=95.6522
+epoch:64, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0164, ce_loss_1=0.0362, ce_loss_2=0.0125, ACC_0=97.7778, ACC_1=95.7746, ACC_2=96.0000
+epoch:64, Train: lr=0.002500, Loss=0.0164
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_64/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:64, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8566, val_err=0.2319, ACC=0.7652, TPR=0.3478
+test phase cost 1.2421s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:65, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0127, ce_loss_1=0.0220, ce_loss_2=0.0028, ACC_0=98.4615, ACC_1=98.0952, ACC_2=96.0000
+epoch:65, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0134, ce_loss_1=0.0458, ce_loss_2=0.0034, ACC_0=98.1818, ACC_1=92.9204, ACC_2=96.2963
+epoch:65, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0104, ce_loss_1=0.0421, ce_loss_2=0.0105, ACC_0=98.1818, ACC_1=99.0476, ACC_2=94.2857
+epoch:65, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0125, ce_loss_1=0.0399, ce_loss_2=0.0095, ACC_0=96.0784, ACC_1=98.5915, ACC_2=94.7368
+epoch:65, Train: lr=0.002500, Loss=0.0125
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_65/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:65, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8425, val_err=0.2319, ACC=0.7739, TPR=0.3043
+test phase cost 1.0457s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:66, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0090, ce_loss_1=0.0201, ce_loss_2=0.0041, ACC_0=98.1132, ACC_1=99.0654, ACC_2=97.1429
+epoch:66, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0206, ce_loss_1=0.0407, ce_loss_2=0.0040, ACC_0=95.2381, ACC_1=94.5946, ACC_2=95.2381
+epoch:66, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0178, ce_loss_1=0.0315, ce_loss_2=0.0039, ACC_0=98.3051, ACC_1=98.9011, ACC_2=97.7778
+epoch:66, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0147, ce_loss_1=0.0329, ce_loss_2=0.0127, ACC_0=97.8723, ACC_1=98.5507, ACC_2=96.0000
+epoch:66, Train: lr=0.002500, Loss=0.0147
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_66/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:66, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8648, val_err=0.2174, ACC=0.7913, TPR=0.3261
+test phase cost 1.1575s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:67, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0079, ce_loss_1=0.0150, ce_loss_2=0.0056, ACC_0=98.6667, ACC_1=98.8506, ACC_2=96.9697
+epoch:67, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0076, ce_loss_1=0.0207, ce_loss_2=0.0087, ACC_0=98.4127, ACC_1=97.8022, ACC_2=97.5610
+epoch:67, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0094, ce_loss_1=0.0180, ce_loss_2=0.0085, ACC_0=98.5507, ACC_1=99.0476, ACC_2=95.2381
+epoch:67, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0118, ce_loss_1=0.0232, ce_loss_2=0.0086, ACC_0=92.6829, ACC_1=98.7342, ACC_2=95.2381
+epoch:67, Train: lr=0.002500, Loss=0.0118
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_67/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:67, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8617, val_err=0.2174, ACC=0.7913, TPR=0.3913
+test phase cost 1.1724s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:68, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0092, ce_loss_1=0.0214, ce_loss_2=0.0087, ACC_0=98.5075, ACC_1=97.3913, ACC_2=92.3077
+epoch:68, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0069, ce_loss_1=0.0265, ce_loss_2=0.0053, ACC_0=98.1132, ACC_1=95.7983, ACC_2=95.6522
+epoch:68, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0099, ce_loss_1=0.0422, ce_loss_2=0.0044, ACC_0=98.1132, ACC_1=96.6387, ACC_2=95.6522
+epoch:68, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0087, ce_loss_1=0.0388, ce_loss_2=0.0061, ACC_0=97.9592, ACC_1=98.5075, ACC_2=96.0000
+epoch:68, Train: lr=0.002500, Loss=0.0087
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_68/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:68, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8437, val_err=0.2609, ACC=0.7478, TPR=0.3913
+test phase cost 1.1896s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:69, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0125, ce_loss_1=0.0307, ce_loss_2=0.0039, ACC_0=96.8254, ACC_1=96.9697, ACC_2=96.9697
+epoch:69, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0078, ce_loss_1=0.0310, ce_loss_2=0.0061, ACC_0=98.1818, ACC_1=97.0874, ACC_2=97.2973
+epoch:69, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0089, ce_loss_1=0.0281, ce_loss_2=0.0049, ACC_0=98.3051, ACC_1=99.0291, ACC_2=96.9697
+epoch:69, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0143, ce_loss_1=0.0300, ce_loss_2=0.0041, ACC_0=98.4127, ACC_1=95.2381, ACC_2=93.3333
+epoch:69, Train: lr=0.002500, Loss=0.0143
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_69/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:69, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8437, val_err=0.2754, ACC=0.7304, TPR=0.3913
+test phase cost 1.1160s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:70, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0153, ce_loss_1=0.0143, ce_loss_2=0.0064, ACC_0=97.0149, ACC_1=99.0291, ACC_2=96.0000
+epoch:70, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0103, ce_loss_1=0.0224, ce_loss_2=0.0079, ACC_0=98.1818, ACC_1=97.4359, ACC_2=95.6522
+epoch:70, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0090, ce_loss_1=0.0251, ce_loss_2=0.0076, ACC_0=98.7013, ACC_1=98.0198, ACC_2=94.1176
+epoch:70, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0090, ce_loss_1=0.0274, ce_loss_2=0.0101, ACC_0=98.1132, ACC_1=95.7746, ACC_2=88.2353
+epoch:70, Train: lr=0.002500, Loss=0.0090
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_70/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:70, test:  val_ACC=0.7130, HTER=0.2862, AUC=0.8261, val_err=0.2899, ACC=0.7130, TPR=0.3696
+test phase cost 1.2242s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:71, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0148, ce_loss_1=0.0263, ce_loss_2=0.0106, ACC_0=98.5915, ACC_1=96.6292, ACC_2=97.1429
+epoch:71, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0094, ce_loss_1=0.0374, ce_loss_2=0.0267, ACC_0=98.6301, ACC_1=97.1963, ACC_2=93.3333
+epoch:71, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0089, ce_loss_1=0.0392, ce_loss_2=0.0253, ACC_0=97.9592, ACC_1=99.1150, ACC_2=96.9697
+epoch:71, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0153, ce_loss_1=0.0359, ce_loss_2=0.0234, ACC_0=97.9592, ACC_1=96.8254, ACC_2=93.1034
+epoch:71, Train: lr=0.002500, Loss=0.0153
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_71/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:71, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8459, val_err=0.2609, ACC=0.7478, TPR=0.2826
+test phase cost 1.1054s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:72, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0072, ce_loss_1=0.0163, ce_loss_2=0.0043, ACC_0=98.8235, ACC_1=98.7654, ACC_2=96.5517
+epoch:72, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0219, ce_loss_1=0.0386, ce_loss_2=0.0077, ACC_0=98.1132, ACC_1=97.6000, ACC_2=94.1176
+epoch:72, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0179, ce_loss_1=0.0344, ce_loss_2=0.0064, ACC_0=98.6667, ACC_1=97.8495, ACC_2=96.2963
+epoch:72, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0209, ce_loss_1=0.0312, ce_loss_2=0.0069, ACC_0=97.2973, ACC_1=98.7342, ACC_2=96.0000
+epoch:72, Train: lr=0.002500, Loss=0.0209
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_72/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:72, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8453, val_err=0.2319, ACC=0.7739, TPR=0.3478
+test phase cost 1.1583s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:73, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0067, ce_loss_1=0.0326, ce_loss_2=0.0142, ACC_0=98.3607, ACC_1=97.0874, ACC_2=96.7742
+epoch:73, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0126, ce_loss_1=0.0234, ce_loss_2=0.0079, ACC_0=96.7213, ACC_1=99.0291, ACC_2=96.7742
+epoch:73, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0121, ce_loss_1=0.0264, ce_loss_2=0.0061, ACC_0=98.3607, ACC_1=98.0952, ACC_2=96.5517
+epoch:73, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0101, ce_loss_1=0.0289, ce_loss_2=0.0072, ACC_0=97.9592, ACC_1=93.6508, ACC_2=96.5517
+epoch:73, Train: lr=0.002500, Loss=0.0101
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_73/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:73, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8349, val_err=0.2754, ACC=0.7304, TPR=0.3261
+test phase cost 1.1031s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:74, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0218, ce_loss_1=0.0212, ce_loss_2=0.0136, ACC_0=98.4127, ACC_1=98.9899, ACC_2=96.9697
+epoch:74, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0177, ce_loss_1=0.0230, ce_loss_2=0.0107, ACC_0=98.2456, ACC_1=97.2477, ACC_2=96.5517
+epoch:74, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0191, ce_loss_1=0.0273, ce_loss_2=0.0118, ACC_0=98.5507, ACC_1=97.9381, ACC_2=96.5517
+epoch:74, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0156, ce_loss_1=0.0293, ce_loss_2=0.0221, ACC_0=96.5517, ACC_1=96.8421, ACC_2=82.3529
+epoch:74, Train: lr=0.002500, Loss=0.0156
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_74/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:74, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8721, val_err=0.2319, ACC=0.7652, TPR=0.3261
+test phase cost 1.2044s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:75, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0247, ce_loss_1=0.0809, ce_loss_2=0.0195, ACC_0=98.2456, ACC_1=99.1304, ACC_2=95.6522
+epoch:75, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0189, ce_loss_1=0.0550, ce_loss_2=0.0294, ACC_0=96.9231, ACC_1=98.8506, ACC_2=95.3488
+epoch:75, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0178, ce_loss_1=0.0584, ce_loss_2=0.0208, ACC_0=98.0392, ACC_1=96.5217, ACC_2=96.5517
+epoch:75, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0196, ce_loss_1=0.0591, ce_loss_2=0.0230, ACC_0=94.3396, ACC_1=97.1014, ACC_2=94.7368
+epoch:75, Train: lr=0.002500, Loss=0.0196
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_75/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:75, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8544, val_err=0.2754, ACC=0.7217, TPR=0.2826
+test phase cost 1.2195s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:76, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0282, ce_loss_1=0.0477, ce_loss_2=0.0255, ACC_0=96.7213, ACC_1=98.1651, ACC_2=96.0000
+epoch:76, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0198, ce_loss_1=0.0369, ce_loss_2=0.0181, ACC_0=98.5507, ACC_1=98.0198, ACC_2=96.0000
+epoch:76, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0215, ce_loss_1=0.0319, ce_loss_2=0.0182, ACC_0=98.1132, ACC_1=99.0654, ACC_2=97.1429
+epoch:76, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0180, ce_loss_1=0.0292, ce_loss_2=0.0155, ACC_0=97.6744, ACC_1=97.0149, ACC_2=96.7742
+epoch:76, Train: lr=0.002500, Loss=0.0180
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_76/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:76, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8841, val_err=0.2174, ACC=0.7913, TPR=0.3478
+test phase cost 1.2546s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:77, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0070, ce_loss_1=0.0161, ce_loss_2=0.0020, ACC_0=98.7013, ACC_1=98.9474, ACC_2=95.6522
+epoch:77, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0110, ce_loss_1=0.0228, ce_loss_2=0.0100, ACC_0=96.8254, ACC_1=99.0099, ACC_2=96.7742
+epoch:77, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0195, ce_loss_1=0.0314, ce_loss_2=0.0078, ACC_0=96.4912, ACC_1=97.1429, ACC_2=96.9697
+epoch:77, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0162, ce_loss_1=0.0264, ce_loss_2=0.0184, ACC_0=97.7778, ACC_1=98.6667, ACC_2=90.4762
+epoch:77, Train: lr=0.002500, Loss=0.0162
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_77/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:77, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8812, val_err=0.2464, ACC=0.7565, TPR=0.3696
+test phase cost 1.1493s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:78, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0079, ce_loss_1=0.0411, ce_loss_2=0.0073, ACC_0=98.2456, ACC_1=98.9474, ACC_2=97.6744
+epoch:78, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0050, ce_loss_1=0.0319, ce_loss_2=0.0051, ACC_0=97.9592, ACC_1=99.0291, ACC_2=97.6744
+epoch:78, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0065, ce_loss_1=0.0310, ce_loss_2=0.0141, ACC_0=98.3607, ACC_1=98.0952, ACC_2=93.1034
+epoch:78, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0066, ce_loss_1=0.0361, ce_loss_2=0.0123, ACC_0=97.2973, ACC_1=96.0000, ACC_2=96.5517
+epoch:78, Train: lr=0.002500, Loss=0.0066
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_78/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:78, test:  val_ACC=0.7826, HTER=0.2174, AUC=0.8759, val_err=0.2174, ACC=0.7826, TPR=0.4130
+test phase cost 1.1287s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:79, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0141, ce_loss_1=0.0442, ce_loss_2=0.0040, ACC_0=97.4026, ACC_1=97.5904, ACC_2=97.1429
+epoch:79, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0191, ce_loss_1=0.0348, ce_loss_2=0.0070, ACC_0=98.7013, ACC_1=97.8495, ACC_2=96.0000
+epoch:79, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0146, ce_loss_1=0.0334, ce_loss_2=0.0066, ACC_0=98.3607, ACC_1=99.0826, ACC_2=96.0000
+epoch:79, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0140, ce_loss_1=0.0315, ce_loss_2=0.0127, ACC_0=97.4359, ACC_1=98.9011, ACC_2=81.8182
+epoch:79, Train: lr=0.002500, Loss=0.0140
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_79/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:79, test:  val_ACC=0.7826, HTER=0.2174, AUC=0.8746, val_err=0.2174, ACC=0.7826, TPR=0.3478
+test phase cost 1.1848s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:80, mini-batch:3, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0064, ce_loss_1=0.0625, ce_loss_2=0.0161, ACC_0=98.3051, ACC_1=97.8947, ACC_2=95.1220
+epoch:80, mini-batch:6, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0087, ce_loss_1=0.0363, ce_loss_2=0.0134, ACC_0=98.5507, ACC_1=98.9899, ACC_2=96.2963
+epoch:80, mini-batch:9, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0108, ce_loss_1=0.0328, ce_loss_2=0.0106, ACC_0=98.6667, ACC_1=98.9474, ACC_2=96.0000
+epoch:80, mini-batch:12, lr=0.0025, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0127, ce_loss_1=0.0392, ce_loss_2=0.0093, ACC_0=97.8723, ACC_1=97.1014, ACC_2=96.0000
+epoch:80, Train: lr=0.002500, Loss=0.0127
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_80/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:80, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8333, val_err=0.2464, ACC=0.7565, TPR=0.3043
+test phase cost 1.1711s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:81, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0072, ce_loss_1=0.0481, ce_loss_2=0.0062, ACC_0=98.4127, ACC_1=99.0476, ACC_2=96.2963
+epoch:81, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0067, ce_loss_1=0.0333, ce_loss_2=0.0165, ACC_0=98.4127, ACC_1=98.9899, ACC_2=96.9697
+epoch:81, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0066, ce_loss_1=0.0323, ce_loss_2=0.0126, ACC_0=98.7654, ACC_1=97.8022, ACC_2=95.6522
+epoch:81, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0134, ce_loss_1=0.0286, ce_loss_2=0.0152, ACC_0=92.4528, ACC_1=98.5915, ACC_2=94.1176
+epoch:81, Train: lr=0.001250, Loss=0.0134
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_81/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:81, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8667, val_err=0.2319, ACC=0.7739, TPR=0.4348
+test phase cost 1.0982s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:82, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0026, ce_loss_1=0.0239, ce_loss_2=0.0033, ACC_0=98.6667, ACC_1=96.8421, ACC_2=96.0000
+epoch:82, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0038, ce_loss_1=0.0184, ce_loss_2=0.0049, ACC_0=98.5075, ACC_1=99.0476, ACC_2=95.6522
+epoch:82, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0078, ce_loss_1=0.0185, ce_loss_2=0.0053, ACC_0=98.3051, ACC_1=99.0476, ACC_2=96.7742
+epoch:82, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0112, ce_loss_1=0.0184, ce_loss_2=0.0054, ACC_0=95.1220, ACC_1=98.6667, ACC_2=96.0000
+epoch:82, Train: lr=0.001250, Loss=0.0112
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_82/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:82, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8589, val_err=0.2609, ACC=0.7478, TPR=0.3478
+test phase cost 1.2727s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:83, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0046, ce_loss_1=0.0191, ce_loss_2=0.0041, ACC_0=98.7013, ACC_1=97.7011, ACC_2=96.7742
+epoch:83, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0114, ce_loss_1=0.0150, ce_loss_2=0.0037, ACC_0=96.6102, ACC_1=99.0654, ACC_2=96.5517
+epoch:83, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0121, ce_loss_1=0.0174, ce_loss_2=0.0032, ACC_0=96.4912, ACC_1=98.0583, ACC_2=97.1429
+epoch:83, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0107, ce_loss_1=0.0202, ce_loss_2=0.0051, ACC_0=98.3607, ACC_1=96.9231, ACC_2=93.3333
+epoch:83, Train: lr=0.001250, Loss=0.0107
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_83/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:83, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8507, val_err=0.2609, ACC=0.7478, TPR=0.4130
+test phase cost 1.2374s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:84, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0122, ce_loss_1=0.0089, ce_loss_2=0.0008, ACC_0=98.5915, ACC_1=98.9899, ACC_2=96.0000
+epoch:84, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0078, ce_loss_1=0.0112, ce_loss_2=0.0032, ACC_0=98.2456, ACC_1=99.0099, ACC_2=97.2973
+epoch:84, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0066, ce_loss_1=0.0248, ce_loss_2=0.0036, ACC_0=98.1132, ACC_1=97.2477, ACC_2=96.9697
+epoch:84, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0068, ce_loss_1=0.0243, ce_loss_2=0.0059, ACC_0=97.4359, ACC_1=97.5904, ACC_2=94.7368
+epoch:84, Train: lr=0.001250, Loss=0.0068
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_84/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:84, test:  val_ACC=0.7565, HTER=0.2428, AUC=0.8576, val_err=0.2464, ACC=0.7565, TPR=0.3913
+test phase cost 1.1647s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:85, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0196, ce_loss_1=0.0206, ce_loss_2=0.0027, ACC_0=97.0149, ACC_1=98.9899, ACC_2=96.5517
+epoch:85, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0193, ce_loss_1=0.0212, ce_loss_2=0.0017, ACC_0=98.1132, ACC_1=98.2906, ACC_2=96.0000
+epoch:85, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0147, ce_loss_1=0.0263, ce_loss_2=0.0028, ACC_0=98.5915, ACC_1=95.7895, ACC_2=96.5517
+epoch:85, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0145, ce_loss_1=0.0321, ce_loss_2=0.0103, ACC_0=97.5610, ACC_1=95.8904, ACC_2=96.2963
+epoch:85, Train: lr=0.001250, Loss=0.0145
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_85/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:85, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8737, val_err=0.2174, ACC=0.7913, TPR=0.3043
+test phase cost 1.2405s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:86, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0032, ce_loss_1=0.0404, ce_loss_2=0.0089, ACC_0=98.1132, ACC_1=97.2477, ACC_2=96.9697
+epoch:86, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0073, ce_loss_1=0.0323, ce_loss_2=0.0159, ACC_0=98.5915, ACC_1=97.0297, ACC_2=91.3043
+epoch:86, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0073, ce_loss_1=0.0280, ce_loss_2=0.0142, ACC_0=98.1818, ACC_1=99.0826, ACC_2=96.7742
+epoch:86, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0075, ce_loss_1=0.0265, ce_loss_2=0.0115, ACC_0=98.2456, ACC_1=98.4615, ACC_2=94.7368
+epoch:86, Train: lr=0.001250, Loss=0.0075
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_86/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:86, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8478, val_err=0.2754, ACC=0.7304, TPR=0.3043
+test phase cost 1.0896s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:87, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0040, ce_loss_1=0.0659, ce_loss_2=0.0035, ACC_0=98.6667, ACC_1=92.7835, ACC_2=95.6522
+epoch:87, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0053, ce_loss_1=0.0403, ce_loss_2=0.0023, ACC_0=98.6301, ACC_1=98.8506, ACC_2=97.1429
+epoch:87, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0078, ce_loss_1=0.0328, ce_loss_2=0.0028, ACC_0=98.2456, ACC_1=99.0291, ACC_2=97.1429
+epoch:87, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0083, ce_loss_1=0.0398, ce_loss_2=0.0050, ACC_0=96.7742, ACC_1=98.8764, ACC_2=95.2381
+epoch:87, Train: lr=0.001250, Loss=0.0083
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_87/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:87, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8554, val_err=0.2319, ACC=0.7652, TPR=0.3043
+test phase cost 1.2136s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:88, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0094, ce_loss_1=0.0359, ce_loss_2=0.0030, ACC_0=98.3607, ACC_1=99.1304, ACC_2=94.7368
+epoch:88, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0162, ce_loss_1=0.0316, ce_loss_2=0.0021, ACC_0=98.3051, ACC_1=97.3451, ACC_2=95.6522
+epoch:88, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0117, ce_loss_1=0.0263, ce_loss_2=0.0032, ACC_0=98.7342, ACC_1=98.7654, ACC_2=97.1429
+epoch:88, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0116, ce_loss_1=0.0220, ce_loss_2=0.0041, ACC_0=95.3488, ACC_1=98.5915, ACC_2=96.2963
+epoch:88, Train: lr=0.001250, Loss=0.0116
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_88/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:88, test:  val_ACC=0.7652, HTER=0.2355, AUC=0.8355, val_err=0.2319, ACC=0.7652, TPR=0.2826
+test phase cost 1.4643s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:89, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0129, ce_loss_1=0.0231, ce_loss_2=0.0014, ACC_0=98.4127, ACC_1=97.1429, ACC_2=96.2963
+epoch:89, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0196, ce_loss_1=0.0209, ce_loss_2=0.0032, ACC_0=98.1818, ACC_1=99.0654, ACC_2=96.9697
+epoch:89, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0218, ce_loss_1=0.0251, ce_loss_2=0.0031, ACC_0=98.5507, ACC_1=96.1905, ACC_2=95.2381
+epoch:89, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0232, ce_loss_1=0.0238, ce_loss_2=0.0028, ACC_0=94.2857, ACC_1=96.2963, ACC_2=96.0000
+epoch:89, Train: lr=0.001250, Loss=0.0232
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_89/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:89, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8481, val_err=0.2609, ACC=0.7478, TPR=0.3043
+test phase cost 1.1335s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:90, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0039, ce_loss_1=0.0366, ce_loss_2=0.0447, ACC_0=98.5915, ACC_1=97.1429, ACC_2=94.7368
+epoch:90, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0064, ce_loss_1=0.0238, ce_loss_2=0.0240, ACC_0=98.3051, ACC_1=99.1736, ACC_2=93.3333
+epoch:90, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0057, ce_loss_1=0.0199, ce_loss_2=0.0162, ACC_0=98.5075, ACC_1=98.9474, ACC_2=96.9697
+epoch:90, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0066, ce_loss_1=0.0219, ce_loss_2=0.0128, ACC_0=97.7778, ACC_1=98.7013, ACC_2=94.7368
+epoch:90, Train: lr=0.001250, Loss=0.0066
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_90/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:90, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8784, val_err=0.2319, ACC=0.7739, TPR=0.4565
+test phase cost 1.0586s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:91, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0281, ce_loss_1=0.0174, ce_loss_2=0.0027, ACC_0=98.4127, ACC_1=98.1308, ACC_2=96.0000
+epoch:91, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0171, ce_loss_1=0.0196, ce_loss_2=0.0019, ACC_0=98.6301, ACC_1=98.9474, ACC_2=96.2963
+epoch:91, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0142, ce_loss_1=0.0162, ce_loss_2=0.0035, ACC_0=98.6301, ACC_1=98.7952, ACC_2=97.4359
+epoch:91, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0170, ce_loss_1=0.0288, ce_loss_2=0.0030, ACC_0=95.7447, ACC_1=96.0000, ACC_2=94.7368
+epoch:91, Train: lr=0.001250, Loss=0.0170
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_91/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:91, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8771, val_err=0.2174, ACC=0.7913, TPR=0.3043
+test phase cost 1.1407s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:92, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0270, ce_loss_1=0.0629, ce_loss_2=0.0387, ACC_0=97.1014, ACC_1=97.9798, ACC_2=96.2963
+epoch:92, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0193, ce_loss_1=0.0417, ce_loss_2=0.0260, ACC_0=98.3051, ACC_1=99.0099, ACC_2=94.2857
+epoch:92, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0181, ce_loss_1=0.0353, ce_loss_2=0.0187, ACC_0=98.3607, ACC_1=98.9691, ACC_2=97.2973
+epoch:92, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0165, ce_loss_1=0.0308, ce_loss_2=0.0200, ACC_0=97.5610, ACC_1=97.5309, ACC_2=94.7368
+epoch:92, Train: lr=0.001250, Loss=0.0165
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_92/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:92, test:  val_ACC=0.7826, HTER=0.2174, AUC=0.8756, val_err=0.2174, ACC=0.7826, TPR=0.4130
+test phase cost 1.1330s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:93, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0181, ce_loss_1=0.0137, ce_loss_2=0.0043, ACC_0=98.5915, ACC_1=98.9247, ACC_2=96.7742
+epoch:93, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0126, ce_loss_1=0.0194, ce_loss_2=0.0130, ACC_0=98.5075, ACC_1=98.9247, ACC_2=97.1429
+epoch:93, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0106, ce_loss_1=0.0232, ce_loss_2=0.0217, ACC_0=98.1818, ACC_1=99.0826, ACC_2=93.5484
+epoch:93, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0086, ce_loss_1=0.0216, ce_loss_2=0.0209, ACC_0=97.7778, ACC_1=98.7342, ACC_2=94.1176
+epoch:93, Train: lr=0.001250, Loss=0.0086
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_93/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:93, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8529, val_err=0.2319, ACC=0.7739, TPR=0.2826
+test phase cost 1.1838s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:94, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0085, ce_loss_1=0.0268, ce_loss_2=0.0025, ACC_0=98.5075, ACC_1=97.8947, ACC_2=96.9697
+epoch:94, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0087, ce_loss_1=0.0178, ce_loss_2=0.0052, ACC_0=98.3051, ACC_1=99.0826, ACC_2=96.2963
+epoch:94, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0081, ce_loss_1=0.0158, ce_loss_2=0.0055, ACC_0=98.1132, ACC_1=99.0991, ACC_2=96.7742
+epoch:94, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0071, ce_loss_1=0.0224, ce_loss_2=0.0059, ACC_0=97.8723, ACC_1=97.4684, ACC_2=93.3333
+epoch:94, Train: lr=0.001250, Loss=0.0071
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_94/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:94, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8576, val_err=0.2319, ACC=0.7739, TPR=0.3478
+test phase cost 1.2206s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:95, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0085, ce_loss_1=0.0090, ce_loss_2=0.0283, ACC_0=98.5075, ACC_1=98.9691, ACC_2=96.7742
+epoch:95, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0109, ce_loss_1=0.0192, ce_loss_2=0.0173, ACC_0=98.2456, ACC_1=98.1982, ACC_2=96.2963
+epoch:95, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0098, ce_loss_1=0.0203, ce_loss_2=0.0114, ACC_0=98.5075, ACC_1=98.9899, ACC_2=96.5517
+epoch:95, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0103, ce_loss_1=0.0186, ce_loss_2=0.0095, ACC_0=97.1429, ACC_1=98.9474, ACC_2=90.9091
+epoch:95, Train: lr=0.001250, Loss=0.0103
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_95/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:95, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8607, val_err=0.2319, ACC=0.7739, TPR=0.3478
+test phase cost 1.1446s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:96, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0054, ce_loss_1=0.0239, ce_loss_2=0.0026, ACC_0=97.7778, ACC_1=98.1651, ACC_2=97.5610
+epoch:96, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0065, ce_loss_1=0.0255, ce_loss_2=0.0114, ACC_0=98.4127, ACC_1=99.1453, ACC_2=86.6667
+epoch:96, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0087, ce_loss_1=0.0298, ce_loss_2=0.0084, ACC_0=98.5075, ACC_1=98.9899, ACC_2=96.5517
+epoch:96, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0121, ce_loss_1=0.0282, ce_loss_2=0.0080, ACC_0=97.8723, ACC_1=95.7746, ACC_2=95.6522
+epoch:96, Train: lr=0.001250, Loss=0.0121
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_96/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:96, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8507, val_err=0.2609, ACC=0.7478, TPR=0.3478
+test phase cost 1.1349s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:97, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0012, ce_loss_1=0.0462, ce_loss_2=0.0010, ACC_0=98.0392, ACC_1=97.3451, ACC_2=96.7742
+epoch:97, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0028, ce_loss_1=0.0484, ce_loss_2=0.0051, ACC_0=98.5075, ACC_1=95.6044, ACC_2=97.2973
+epoch:97, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0094, ce_loss_1=0.0462, ce_loss_2=0.0037, ACC_0=95.8904, ACC_1=99.0099, ACC_2=95.2381
+epoch:97, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0088, ce_loss_1=0.0374, ce_loss_2=0.0036, ACC_0=98.1132, ACC_1=98.7013, ACC_2=90.9091
+epoch:97, Train: lr=0.001250, Loss=0.0088
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_97/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:97, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8601, val_err=0.2754, ACC=0.7304, TPR=0.3696
+test phase cost 1.0923s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:98, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0097, ce_loss_1=0.0467, ce_loss_2=0.0072, ACC_0=98.6301, ACC_1=97.8022, ACC_2=96.7742
+epoch:98, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0063, ce_loss_1=0.0420, ce_loss_2=0.0061, ACC_0=98.4615, ACC_1=98.0583, ACC_2=96.2963
+epoch:98, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0062, ce_loss_1=0.0325, ce_loss_2=0.0044, ACC_0=98.0392, ACC_1=98.2609, ACC_2=96.5517
+epoch:98, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0067, ce_loss_1=0.0291, ce_loss_2=0.0040, ACC_0=97.7778, ACC_1=98.5507, ACC_2=96.2963
+epoch:98, Train: lr=0.001250, Loss=0.0067
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_98/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:98, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8626, val_err=0.2609, ACC=0.7478, TPR=0.4348
+test phase cost 1.1932s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:99, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0099, ce_loss_1=0.0607, ce_loss_2=0.0107, ACC_0=96.0784, ACC_1=96.7480, ACC_2=95.2381
+epoch:99, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0074, ce_loss_1=0.0480, ce_loss_2=0.0060, ACC_0=98.6667, ACC_1=97.7011, ACC_2=96.9697
+epoch:99, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0063, ce_loss_1=0.0364, ce_loss_2=0.0041, ACC_0=98.1818, ACC_1=99.0099, ACC_2=97.4359
+epoch:99, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0095, ce_loss_1=0.0312, ce_loss_2=0.0035, ACC_0=95.7447, ACC_1=98.6301, ACC_2=95.2381
+epoch:99, Train: lr=0.001250, Loss=0.0095
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_99/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:99, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8633, val_err=0.2754, ACC=0.7217, TPR=0.3478
+test phase cost 0.9926s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+epoch:100, mini-batch:3, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0197, ce_loss_1=0.0411, ce_loss_2=0.0075, ACC_0=98.3607, ACC_1=98.9691, ACC_2=97.2973
+epoch:100, mini-batch:6, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0232, ce_loss_1=0.0351, ce_loss_2=0.0076, ACC_0=96.4912, ACC_1=97.4790, ACC_2=94.7368
+epoch:100, mini-batch:9, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0188, ce_loss_1=0.0345, ce_loss_2=0.0184, ACC_0=98.4127, ACC_1=98.9691, ACC_2=97.1429
+epoch:100, mini-batch:12, lr=0.0013, angle=-1.0000, feat_loss=0.0000, ce_loss_0=0.0180, ce_loss_1=0.0313, ce_loss_2=0.0159, ACC_0=94.2857, ACC_1=96.0000, ACC_2=96.7742
+epoch:100, Train: lr=0.001250, Loss=0.0180
+score: write test scores to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/score/epoch_100/MSU_MFSD_score.txt
+## MSU_MFSD score:
+epoch:100, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8431, val_err=0.2754, ACC=0.7217, TPR=0.3043
+test phase cost 1.1779s
+[Best result] epoch:46, HTER=0.1920, AUC=0.8683
+Model saved to ./results/O_C_I_to_M_pre(img)_pgirm(none-20)_normfc(False)_bsz(96)_rot(True)_smin(0.2)_tscl(0.9)_lr(0.005)_alpha(0.995)_scale(1)_floss(none)_flossw(0.0)_tmp(0.1)_seed(0)/model/ResNet18_lgt_pO_C_I_to_M_recent.pth
+## MSU_MFSD score:
+epoch:101, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8431, val_err=0.2754, ACC=0.7217, TPR=0.3043
+## MSU_MFSD score:
+epoch:100, test:  val_ACC=0.7217, HTER=0.2790, AUC=0.8633, val_err=0.2754, ACC=0.7217, TPR=0.3478
+## MSU_MFSD score:
+epoch:99, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8626, val_err=0.2609, ACC=0.7478, TPR=0.4348
+## MSU_MFSD score:
+epoch:98, test:  val_ACC=0.7304, HTER=0.2790, AUC=0.8601, val_err=0.2754, ACC=0.7304, TPR=0.3696
+## MSU_MFSD score:
+epoch:97, test:  val_ACC=0.7478, HTER=0.2609, AUC=0.8507, val_err=0.2609, ACC=0.7478, TPR=0.3478
+## MSU_MFSD score:
+epoch:96, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8607, val_err=0.2319, ACC=0.7739, TPR=0.3478
+## MSU_MFSD score:
+epoch:95, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8576, val_err=0.2319, ACC=0.7739, TPR=0.3478
+## MSU_MFSD score:
+epoch:94, test:  val_ACC=0.7739, HTER=0.2355, AUC=0.8529, val_err=0.2319, ACC=0.7739, TPR=0.2826
+## MSU_MFSD score:
+epoch:93, test:  val_ACC=0.7826, HTER=0.2174, AUC=0.8756, val_err=0.2174, ACC=0.7826, TPR=0.4130
+## MSU_MFSD score:
+epoch:92, test:  val_ACC=0.7913, HTER=0.2174, AUC=0.8771, val_err=0.2174, ACC=0.7913, TPR=0.3043
